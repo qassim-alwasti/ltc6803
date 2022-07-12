@@ -22,7 +22,12 @@ This section will demonestrate how to get an LTC6803-1 IC working with an Arduin
 ## Upload sketch
 ## Check the serial output
 
-# Understanding the configuration registers
+---
 
+# More in-depth details:
+## Understanding the configuration registers
+## Calculating the PEC value
 
-# Improvements checklist
+---
+
+# Future Improvements checklist
