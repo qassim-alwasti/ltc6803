@@ -18,9 +18,7 @@ LTC6803-1 is one of the best solutions in the market for Battery Monitoring Syst
 This section will demonestrate how to get an LTC6803-1 IC working with an Arduino UNO (or Atmega328 microcontroller) using the provided example. 
 ## Required parts
 ## Circuit diagram
-## Code example modifications
-## Upload sketch
-## Check the serial output
+## Code example
 
 ---
 
