@@ -9,4 +9,4 @@ LTC6803-1 is one of the best solutions in the market for Battery Monitoring Syst
 2- It monitors the voltage of each cell - where battery cells are connected in series - and discharges the overcharged cells to balance the whole batteries stack. 
 3- Using LTC6803-1 requires a micro-controller -which is in this case an Arduino UNO atmega328- which will drive the LTC and process its data.
 
-# How to use it with arduino UNO
+# Getting started with arduino UNO (Atmega328)
