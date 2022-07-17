@@ -29,3 +29,6 @@ This section will demonestrate how to get an LTC6803-1 IC working with an Arduin
 ---
 
 # Future Improvements checklist
+1. Power consumption improvement
+2. Add example with SD card reader
+3. Add example which works with ESP8266 and ESP32 as the host uController
