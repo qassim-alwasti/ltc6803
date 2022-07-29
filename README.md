@@ -45,10 +45,10 @@ There are few variables which you need to modify on this demo Arduino sketch.
 
 "ltc.getData();" is called periodically to read the current voltage and temperature values from LTC IC. 
 The below global variables from the created LTC object will contain the readings from LTC IC:
-1. ltc.IC_tmp -> retrns the internal temperature of the IC. Thsi temperature is a good indicator that the IC is working properly.
-2. ltc.cell_voltages[index 0 to 11] -> array which returns the voltage reading for each cell from cell 1 to cell 12.
-3. ltc.flag_cell[index 0 to 11] -> array which returns a string (OV, UV, OK) indicating the cell status compared to the over and under voltage limits specified previously. 
-4. ltc.tmp_cell[index 0 to 1] -> array which returns the temperature reading from "Temp1" and "Temp2" pins on LTC IC. 
+1. **ltc.IC_tmp ->** retrns the internal temperature of the IC. Thsi temperature is a good indicator that the IC is working properly.
+2. **ltc.cell_voltages[index 0 to 11] ->** array which returns the voltage reading for each cell from cell 1 to cell 12.
+3. **ltc.flag_cell[index 0 to 11] ->** array which returns a string (OV, UV, OK) indicating the cell status compared to the over and under voltage limits specified previously. 
+4. **ltc.tmp_cell[index 0 to 1] ->** array which returns the temperature reading from "Temp1" and "Temp2" pins on LTC IC. 
 
 ---
 
