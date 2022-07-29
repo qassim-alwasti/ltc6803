@@ -9,7 +9,7 @@ LTC6803 library is an Arduino UNO library for Linear technology's LTC6803 Batter
 
 # About LTC6803-1
 
-LTC6803-1 is one of the best solutions in the market for Battery Monitoring System "BMS". Below are some of the main features, please refer to LTC6803 Datasheet for full features\capabilities of this IC or check out this youtube video from Linear Technology (https://www.youtube.com/watch?v=eDXXNF7h-vQ).
+LTC6803-1 is one of the best solutions in the market for Battery Monitoring System "BMS". Below are some of the main features, please refer to LTC6803 Datasheet [LTC6803 Datasheet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiaoaKGip75AhX6JMUKHfi9CWEQFnoECAkQAQ&url=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F680313fa.pdf&usg=AOvVaw0DliQdDvnjmocmrJoVoMZz"LTC6803 Datasheet") for full features\capabilities of this IC or check out this youtube video from Linear Technology (https://www.youtube.com/watch?v=eDXXNF7h-vQ).
 
 1. This single IC could manage up to 12 battery cells and it is possile to connect multiple ICs together -daisy chain- to manage higher number of battery cells. 
 2. It monitors the voltage of each cell - where the battery cells are connected in series.
@@ -23,8 +23,6 @@ This section will demonestrate how to get an LTC6803-1 IC working with an Arduin
 1. LTC6803-1 usually soldered on a break out board for prototyping. 
 2. Arduino UNO or stand alone Atmega328 uController. 
 3. Some ceramic capacitors and resistors as shown in the circuit diagram. 
-
-## Circuit diagram
 
 ## Code example
 After adding this library to the Arduino IDE, go to "File" -> "Examples" -> "LTC6803" -> "Simple_LTC6803_Demo".
@@ -45,12 +43,6 @@ The below global variables from the created LTC object will contain the readings
 2. ltc.cell_voltages[index 0 to 11] -> array which returns the voltage reading for each cell from cell 1 to cell 12.
 3. ltc.flag_cell[index 0 to 11] -> array which returns a string (OV, UV, OK) indicating the cell status compared to the over and under voltage limits specified previously. 
 4. ltc.tmp_cell[index 0 to 1] -> array which returns the temperature reading from "Temp1" and "Temp2" pins on LTC IC. 
-
----
-
-# More in-depth details:
-## Understanding the configuration registers
-## Calculating the PEC value
 
 ---
 
