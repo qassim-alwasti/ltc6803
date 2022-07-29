@@ -36,10 +36,10 @@ There are few variables which you need to modify on this demo Arduino sketch.
 
 ![variables](https://user-images.githubusercontent.com/109140923/181738522-28dea316-4de4-4145-9c5b-70ed07bb308b.PNG)
 
-1. **chipSelect -> this is the SPI chip select pin number - usually pin 10.**
-2. **uv_limit -> Under voltage limit for the battery cells - lowest is -0.3 volts.**
-3. **ov_limit -> Over voltage limit for the battery cells highest is 5 volts.**
-4. **cellNumber -> Number of battery cells in your project - maximum 12 cells.**
+1. **chipSelect ->** this is the SPI chip select pin number - usually pin 10.
+2. **uv_limit ->** Under voltage limit for the battery cells - lowest is -0.3 volts.
+3. **ov_limit ->** Over voltage limit for the battery cells highest is 5 volts.
+4. **cellNumber ->** Number of battery cells in your project - maximum 12 cells.
 
 ### Once these variables are set, you're good to go. Just upload the sketch and open the serial terminal to verify that it is working fine.
 
