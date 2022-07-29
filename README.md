@@ -11,8 +11,7 @@ LTC6803 library is an Arduino UNO library for Linear technology's LTC6803 Batter
 
 LTC6803-1 is one of the best solutions in the market for Battery Monitoring System "BMS". Below are some of the main features, please refer to LTC6803 Datasheet for full features\capabilities of this IC or check out this youtube video from Linear Technology.
 
-https://www.youtube.com/watch?v=<https://www.youtube.com/watch?v=eDXXNF7h-vQ>
-https://youtu.be/<https://www.youtube.com/watch?v=eDXXNF7h-vQ>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eDXXNF7h-vQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. This single IC could manage up to 12 battery cells and it is possile to connect multiple ICs together to manage higher number of battery cells. 
 2. It monitors the voltage of each cell - where battery cells are connected in series - and discharges the overcharged cells to balance the whole batteries stack. 
