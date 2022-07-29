@@ -53,7 +53,10 @@ There are few variables which you need to modify on this demo Arduino sketch.
 ---
 
 # Future Improvements checklist
-- [ ] Power consumption improvement
-- [ ] Add example with SD card reader
-- [ ] Add example which works with ESP8266 and ESP32 as the host uController
-- [ ] Replace any blocking delays.
+- [ ] Power consumption improvement like going to deep sleep between measurements.
+- [ ] Add example with SD card reader.
+- [ ] Add example which works with ESP8266 and ESP32 as the host uController.
+- [ ] Replace any blocking delays with non-blocking delays.
+- [ ] Add more advanced examples.
+- [ ] Add Open-wire detection functionality.
+- [ ] Add optional method for temperature multiplexing.
