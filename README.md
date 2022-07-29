@@ -28,7 +28,7 @@ This section will demonestrate how to get an LTC6803-1 IC working with an Arduin
 
 ## Code example
 After adding this library to the Arduino IDE, go to "File" -> "Examples" -> "LTC6803" -> "Simple_LTC6803_Demo".
-There are few varuables which you need to modify on this demo Arduino sketch.
+There are few variables which you need to modify on this demo Arduino sketch.
 1. chipSelect -> this is the SPI chip select pin number - usually pin 10.
 2. uv_limit -> Under voltage limit for the battery cells - lowest is -0.3 volts.
 3. ov_limit -> Over voltage limit for the battery cells highest is 5 volts.
