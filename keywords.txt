@@ -1,0 +1,19 @@
+#######################################
+# Syntax Coloring Map For LTC6803
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ltc6803	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+getData	KEYWORD2
+IC_tmp	KEYWORD3
+cell_voltages	KEYWORD3
+flag_cell	KEYWORD3
+tmp_cell	KEYWORD3
