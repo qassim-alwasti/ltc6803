@@ -31,7 +31,11 @@ This section will demonestrate how to get an LTC6803-1 IC working with an Arduin
 3. Some ceramic capacitors and resistors as shown in the circuit diagram. 
 
 ## Circuit diagram
-Check out the "Typical Application" circuit diagram in the datasheet. I will soon create a detailed project instructables with some circuit diagrams and PCB layouts that can be ordered directly from PCB manufacturers in China.
+Check out the "Typical Application" circuit diagram in the datasheet. I will soon create a detailed project instructables with some circuit diagrams and PCB layouts that can be ordered directly from PCB manufacturers in China. Below are some important points:
+
+- The temperature sensors that sould be connected are 10K ohm NTCs with 12K ohm resistors. These values are currently hard coded in the library files. You can change these values if required to get correct converted temperature values.
+- The over\under voltage comparison is done on the uController not LTC IC. However, during every loop, the correct values are written to start and stop the "S" pins responsible for loading the cells that reached over voltage level. 
+
 
 ## Code example
 After adding this library to the Arduino IDE, go to **"File" -> "Examples" -> "LTC6803" -> "Simple_LTC6803_Demo"**.
