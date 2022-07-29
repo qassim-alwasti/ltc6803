@@ -8,7 +8,7 @@ LTC6803 library is an Arduino UNO library for Linear technology's LTC6803 Batter
 1. [Overview](https://github.com/qassim-alwasti/ltc6803/blob/main/README.md#overview)
 2. [About LTC](https://github.com/qassim-alwasti/ltc6803/blob/main/README.md#about-ltc6803-1)
 3. [Getting started](https://github.com/qassim-alwasti/ltc6803/blob/main/README.md#getting-started)
-4. [Code example](Future Improvements checklist)
+4. [Code example](https://github.com/qassim-alwasti/ltc6803/blob/main/README.md#code-example)
 5. [Future Improvements checklist](https://github.com/qassim-alwasti/ltc6803/blob/main/README.md#future-improvements-checklist)
 
 
