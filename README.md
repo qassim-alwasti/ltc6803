@@ -9,7 +9,7 @@ LTC6803 library is an Arduino UNO library for Linear technology's LTC6803 Batter
 
 # About LTC6803-1
 
-LTC6803-1 is one of the best solutions in the market for Battery Monitoring System "BMS". Below are some of the main features, please refer to [LTC6803 Datasheet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiaoaKGip75AhX6JMUKHfi9CWEQFnoECAkQAQ&url=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F680313fa.pdf&usg=AOvVaw0DliQdDvnjmocmrJoVoMZz "LTC6803 Datasheet") for full features\capabilities of this IC or check out this youtube [LTC Video](https://www.youtube.com/watch?v=eDXXNF7h-vQ "video") from Linear Technology.
+LTC6803-1 is one of the best solutions in the market for Battery Monitoring System "BMS". Below are some of the main features, please refer to [LTC6803 Datasheet](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiaoaKGip75AhX6JMUKHfi9CWEQFnoECAkQAQ&url=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F680313fa.pdf&usg=AOvVaw0DliQdDvnjmocmrJoVoMZz "LTC6803 Datasheet") for full features\capabilities of this IC or check out this [Youtube Video](https://www.youtube.com/watch?v=eDXXNF7h-vQ "video") from Linear Technology.
 
 1. This single IC could manage up to 12 battery cells and it is possile to connect multiple ICs together -daisy chain- to manage higher number of battery cells. 
 2. It monitors the voltage of each cell - where the battery cells are connected in series.
