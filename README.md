@@ -30,8 +30,11 @@ This section will demonestrate how to get an LTC6803-1 IC working with an Arduin
 2. Arduino UNO or stand alone Atmega328 uController. 
 3. Some ceramic capacitors and resistors as shown in the circuit diagram. 
 
+## Circuit diagram
+Check out the "Typical Application" circuit diagram in the datasheet. I will soon create a detailed project instructables with some circuit diagrams and PCB layouts that can be ordered directly from PCB manufacturers in China.
+
 ## Code example
-After adding this library to the Arduino IDE, go to "File" -> "Examples" -> "LTC6803" -> "Simple_LTC6803_Demo".
+After adding this library to the Arduino IDE, go to **"File" -> "Examples" -> "LTC6803" -> "Simple_LTC6803_Demo"**.
 There are few variables which you need to modify on this demo Arduino sketch.
 
 ![variables](https://user-images.githubusercontent.com/109140923/181738522-28dea316-4de4-4145-9c5b-70ed07bb308b.PNG)
