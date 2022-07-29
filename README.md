@@ -44,7 +44,9 @@ There are few variables which you need to modify on this demo Arduino sketch.
 3. **ov_limit ->** Over voltage limit for the battery cells highest is 5 volts.
 4. **cellNumber ->** Number of battery cells in your project - maximum 12 cells.
 
-**Once these variables are set, you're good to go. Just upload the sketch and open the serial terminal to verify that it is working fine.**
+**Once these variables are set, you're good to go. Just upload the sketch and open the serial terminal to verify that it is working fine. Below is an example output from serial monitor**
+
+![SerialMonitor](https://user-images.githubusercontent.com/109140923/181769758-188d50c5-86c4-46db-a6ba-772886c801a5.PNG)
 
 "**ltc.getData();**" is called periodically to read the current voltage and temperature values from LTC IC. 
 **The below global variables from the created LTC object will contain the readings from LTC IC:**
