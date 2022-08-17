@@ -24,7 +24,7 @@ int cellNumber = 12;    //Number of battery cells - maximum 12 cells
 void setup()
 {
   Serial.begin(115200); //For debugging
-  ltc.begin(chipSelect, cellNumber, uv_limit, ov_limit, tempMuxPinA, tempMuxPinB);
+  ltc.begin(chipSelect, cellNumber, uv_limit, ov_limit);
   delay(500);
 }
 
