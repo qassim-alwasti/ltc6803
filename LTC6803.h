@@ -21,7 +21,7 @@ class ltc6803
 {
 	public:
 
-			void begin(int CS, int cNum, float uv_limit, float ov_limit, int muxPinA, int muxPinB);
+			void begin(int CS, int cNum, float uv_limit, float ov_limit);
 			void getData();
 	
 			float IC_tmp;
