@@ -23,7 +23,7 @@ SPISettings settings(1000000, MSBFIRST, SPI_MODE3); // 1MHz , Most significant b
 // This is described in "LTC6803" datasheet, so MODE3 is chosen.
 
 
-void ltc6803::begin(int CS, int cNum, float uv_limit, float ov_limit, int muxPinA, int muxPinB)
+void ltc6803::begin(int CS, int cNum, float uv_limit, float ov_limit)
 {
   _CS = CS; 			//SPI Chip select pin used to select LTC IC
   _cellNumber = cNum;	//Number of battery cells connected to the system
